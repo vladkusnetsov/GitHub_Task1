@@ -7,7 +7,7 @@ int main()
 {
 	using namespace boost::lambda;
 	typedef std::istream_iterator<int> in;
-
+	std::cout << "online change" << std::endl;
 	std::cout << "change" << std::endl;
 	std::cout << "change 1" << std::endl;
 	std::cout << "change 2" << std::endl;
